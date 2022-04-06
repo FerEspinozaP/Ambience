@@ -1,27 +1,18 @@
 .audio-ls{
-    position: absolute;
-    width: 188px;
-    height: 21px;
-    left: 87px;
-    top: 190px;
-
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 33px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #1B2E48; 
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #fff;
 }
 
 .audio-ls-item .audio-img{
     width: 48px;
     height: 48px;
-    left: 4px;
-    top: 4px;
+    border-radius:8px;
+    background: #1B2E48;
+
 }
 
 .audio-info{

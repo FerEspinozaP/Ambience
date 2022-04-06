@@ -10,20 +10,30 @@ const AudioList = ({
             </div>
 
             <ul>
-                <li className="audio-ls-container" mtb-16>
+                <li className="audio-ls-container mtb-16">
                     <div className="audio-ls-item flex align-center ptb-8">
                         <div className="audio-img">
                             <img />
                         </div>
                     </div>
-                    <div className="audio-info mlr-16">
-                        <p>Higher Power</p>
+                    <div className="audio-info mlr-8">
+                        <strong>Higher Power</strong>
                         <p>Coldplay</p>
                     </div>
 
-
+                    <div className="audio-ls-item flex align-center ptb-8">
+                        <div className="audio-img">
+                            <img />
+                        </div>
+                    </div>
+                    <div className="audio-info mlr-8">
+                        <strong>Higher Power</strong>
+                        <p>Coldplay</p>
+                    </div>
                 </li>
             </ul>
         </div>
     );
 }
+
+export default AudioList;
