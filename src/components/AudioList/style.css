@@ -1,0 +1,33 @@
+.audio-ls{
+    position: absolute;
+    width: 188px;
+    height: 21px;
+    left: 87px;
+    top: 190px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #1B2E48; 
+}
+
+.audio-ls-item .audio-img{
+    width: 48px;
+    height: 48px;
+    left: 4px;
+    top: 4px;
+}
+
+.audio-info{
+    font-size: 12px;
+}
+
+.audio-info p:last-child{
+    color: #2A3C55;
+}
